@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e8gK2N7VEkUkAdOgSfUluxk2wl+5qofQm0YsdXPFgGM=",
+  "Source": "AspireApp2.ApiService",
+  "BasePath": "_content/AspireApp2.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

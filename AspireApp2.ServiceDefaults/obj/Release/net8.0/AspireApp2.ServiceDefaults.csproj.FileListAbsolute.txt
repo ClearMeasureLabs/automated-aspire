@@ -1,0 +1,12 @@
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\bin\Release\net8.0\AspireApp2.ServiceDefaults.deps.json
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\bin\Release\net8.0\AspireApp2.ServiceDefaults.dll
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\bin\Release\net8.0\AspireApp2.ServiceDefaults.pdb
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\AspireApp2.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\AspireApp2.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\AspireApp2.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\AspireApp2.ServiceDefaults.AssemblyInfo.cs
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\AspireApp2.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\AspireApp2.ServiceDefaults.dll
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\refint\AspireApp2.ServiceDefaults.dll
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\AspireApp2.ServiceDefaults.pdb
+C:\Users\tony_\source\repos\AspireApp2\AspireApp2.ServiceDefaults\obj\Release\net8.0\ref\AspireApp2.ServiceDefaults.dll
