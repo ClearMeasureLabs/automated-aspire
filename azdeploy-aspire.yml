@@ -24,7 +24,11 @@ steps:
   - pwsh: |
       azd config set auth.useAzCliAuth "true"
     displayName: Configure AZD to Use AZ CLI Authentication.
-  
+
+  - pwsh: |
+      dotnet workload install aspire
+    displayName: Install Aspire workload
+
 #  - pwsh: |
 #      azd pipeline config --environment tf-aspire-autogen --provider azdo --principal-name $(principal-name) --principal-id $(principal-id)
 #    displayName: azd pipeline config in-pipeline
