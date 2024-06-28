@@ -25,9 +25,9 @@ steps:
       azd config set auth.useAzCliAuth "true"
     displayName: Configure AZD to Use AZ CLI Authentication.
   
-  - pwsh: |
-      azd pipeline config --environment tf-aspire-autogen --provider azdo --principal-name $(principal-name) --principal-id $(principal-id)
-    displayName: azd pipeline config in-pipeline
+#  - pwsh: |
+#      azd pipeline config --environment tf-aspire-autogen --provider azdo --principal-name $(principal-name) --principal-id $(principal-id)
+#    displayName: azd pipeline config in-pipeline
 
   - task: AzureCLI@2
     displayName: Provision Infrastructure
