@@ -9,6 +9,10 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+  - group: 'AspirePipelineVariables'
+    
+
 steps:
   - task: Bash@3
     displayName: Install azd
@@ -22,8 +26,8 @@ steps:
     displayName: Configure AZD to Use AZ CLI Authentication.
   
   - pwsh: |
-      azd pipeline config
-    displayName: Sets up azconnection for following steps
+      azd pipeline config --environment tf-aspire-autogen --provider azdo --principal-name $(principal-name) --principal-id $(principal-id)
+    displayName: azd pipeline config in-pipeline
 
   - task: AzureCLI@2
     displayName: Provision Infrastructure
