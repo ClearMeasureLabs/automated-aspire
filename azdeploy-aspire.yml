@@ -20,12 +20,16 @@ steps:
   - pwsh: |
       azd config set auth.useAzCliAuth "true"
     displayName: Configure AZD to Use AZ CLI Authentication.
+  
+  - pwsh: |
+      azd pipeline config
+    displayName: Sets up azconnection for following steps
 
   - task: AzureCLI@2
     displayName: Provision Infrastructure
     inputs:
         # azconnection is created by azd pipeline config
-        azureSubscription: azconnection
+        azureSubscription: tf-aspire-sc
         scriptType: bash
         scriptLocation: inlineScript
         inlineScript: |
@@ -40,7 +44,7 @@ steps:
   - task: AzureCLI@2
     displayName: Deploy Application
     inputs:
-        azureSubscription: azconnection
+        azureSubscription: tf-aspire-sc
         scriptType: bash
         scriptLocation: inlineScript
         inlineScript: |
